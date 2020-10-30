@@ -9,7 +9,7 @@ document.getElementById('bg').innerHTML = myParam + "<br> <br>" + "Wishing You A
 function share() { 
 
     const form = document.getElementById('input')
-const name = `file:///F:/Gokul/clickme%20clone/index.html?name=${form.value }`
+const name = `https://gokulnt2008.github.io/diwaligreeting/?name=${form.value }`
 console.log(form.value)
   
     // Getting user input 
