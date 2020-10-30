@@ -3,7 +3,7 @@ const myParam = urlParams.get('name');
 
 
 
-document.getElementById('bg').innerHTML = myParam + "<br> <br>" + "Wishing You A Very Happy Diwali" + "<br><br>" + "<img class=gif src=https://im6.ezgif.com/tmp/ezgif-6-13a1085f983b.gif>" + "<div class=footer><input id=input type=Text><button onclick=share()>Share On Whatsapp</button></div>"
+document.getElementById('bg').innerHTML = myParam + "<br> <br>" + "Wishing You A Very Happy Diwali" + "<br><br>" + "<img class=gif src=/img/fire.gif>" + "<div class=footer><input id=input type=Text><button onclick=share()>Share On Whatsapp</button></div>"
 
 
 function share() { 
